@@ -1,7 +1,8 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import Main from '@Pages/Main';
+import Main from '@Pages/Main/main';
+import '@Styles/global.less';
 
 const App = () => {
     return (
