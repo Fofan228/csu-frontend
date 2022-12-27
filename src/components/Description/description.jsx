@@ -17,27 +17,27 @@ const arr = [
     {
         title: 'Рассчитать стоимость',
         desc: descripton,
-        avatar: img1,
+        img: img1,
     },
     {
         title: 'Вызвать курьера',
         desc: descripton,
-        avatar: img2,
+        img: img2,
     },
     {
         title: 'Оплатить услуги',
         desc: descripton,
-        avatar: img3,
+        img: img3,
     },
     {
         title: 'Заключить договор',
         desc: descripton,
-        avatar: img4,
+        img: img4,
     },
     {
         title: 'Предоставить данные',
         desc: descripton,
-        avatar: img5,
+        img: img5,
     },
 ];
 
@@ -47,11 +47,7 @@ const Description = () => {
             <div className="description-title">5 шагов к заявке</div>
             <div className="description-info">
                 {arr.map((e) => (
-                    <Card
-                        title={e.title}
-                        avatar={e.avatar}
-                        description={e.desc}
-                    />
+                    <Card title={e.title} img={e.img} description={e.desc} />
                 ))}
             </div>
         </div>

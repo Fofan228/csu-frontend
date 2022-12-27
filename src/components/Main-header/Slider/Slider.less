@@ -1,0 +1,59 @@
+.slider {
+  overflow: hidden;
+  position: static;
+}
+
+.slide-list, .slide-list-fast {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.slide-list-fast {
+}
+
+.slide {
+  flex: 1 0 100%;
+  position: relative;
+}
+
+.slide-image {
+  display: flex;
+  margin: 0 auto;
+  max-height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.slide-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* POINTS */
+
+.points {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 50px;
+  z-index: 2;
+}
+
+.point {
+  width: 14px;
+  height: 14px;
+  background: #264160;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+  margin: 5px;
+}
+
+.selected {
+  background: #1b2e44;
+}
+
+.point:hover {
+  cursor: pointer;
+}
