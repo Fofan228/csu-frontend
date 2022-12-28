@@ -10,7 +10,7 @@
   margin-right: 135px;
 }
 
-.second-slide {
+.second-slide{
   background-size: 550px;
   background-attachment: scroll;
 }
@@ -20,6 +20,10 @@
   flex-direction: row;
   width: 50%;
   margin-left: 135px;
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 5px;
+  }
 }
 
 .main-header__text-name {
@@ -28,6 +32,10 @@
   font-weight: 700;
   max-width: 660px;
   padding-top: 100px;
+
+  @media only screen and (max-width: 768px) {
+    font-weight: 600;
+  }
 }
 
 .main-header__text-desk {
@@ -36,6 +44,10 @@
   max-width: 550px;
   color: #FFFFFF;
   line-height: 24px;
+
+  @media only screen and (max-width: 768px) {
+    width: 700px;
+  }
 }
 
 .main-header__buttons {
@@ -58,30 +70,16 @@
   .slide-container {
     background-image: none !important;
   }
-
-
-
   .header-main__info {
     width: 80%;
   }
 }
 
-@media (max-width: 800px) {
-
-}
-
 @media (max-width: 620px) {
-
   .header-main__info {
     width: 100%;
   }
-
   .main-header__text-name {
     font-size: 50px;
   }
-}
-
-
-@media (max-width: 1150px) {
-
 }

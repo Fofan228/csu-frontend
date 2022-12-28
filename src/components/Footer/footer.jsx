@@ -23,7 +23,7 @@ const Footer = () => {
                         <dt>Акции</dt>
                     </dl>
                 </div>
-                <div className="footer-info-begin">
+                <div className="footer-info-end">
                     <dl className="footer-info-list-end">
                         <dt>manager@uexpress.ru</dt>
                         <dt>

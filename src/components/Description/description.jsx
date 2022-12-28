@@ -10,33 +10,33 @@ import img5 from '@Assets/images/ico5.png';
 
 import './description.less';
 
-const descripton =
+const description =
     'Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.';
 
 const arr = [
     {
         title: 'Рассчитать стоимость',
-        desc: descripton,
+        desc: description,
         img: img1,
     },
     {
         title: 'Вызвать курьера',
-        desc: descripton,
+        desc: description,
         img: img2,
     },
     {
         title: 'Оплатить услуги',
-        desc: descripton,
+        desc: description,
         img: img3,
     },
     {
         title: 'Заключить договор',
-        desc: descripton,
+        desc: description,
         img: img4,
     },
     {
         title: 'Предоставить данные',
-        desc: descripton,
+        desc: description,
         img: img5,
     },
 ];
