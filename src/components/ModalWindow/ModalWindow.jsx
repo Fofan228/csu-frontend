@@ -20,11 +20,14 @@ const ModalWindow = ({ isVisible = false, onClose }) => {
     });
 
     return !isVisible ? null : (
-        <div className="modal" onClick={onClose}>
-            <div className="modal-dialog" onClick={(e) => e.stopPropagation()}>
+        <div className={'modal'} onClick={onClose}>
+            <div
+                className={'modal-dialog'}
+                onClick={(e) => e.stopPropagation()}
+            >
                 <div>
                     <img
-                        className="modal-close"
+                        className={'modal-close'}
                         onClick={onClose}
                         src={closeBtn}
                         alt={'Х'}
@@ -46,7 +49,7 @@ const ModalWindow = ({ isVisible = false, onClose }) => {
                             placeholder={'Пароль'}
                         />
                     </div>
-                    <button className="button-auth" style={{ width: '100%' }}>
+                    <button className={'button-auth'} style={{ width: '100%' }}>
                         Войти
                     </button>
                 </div>

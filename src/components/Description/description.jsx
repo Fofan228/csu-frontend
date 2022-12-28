@@ -43,9 +43,9 @@ const arr = [
 
 const Description = () => {
     return (
-        <div className="description">
-            <div className="description-title">5 шагов к заявке</div>
-            <div className="description-info">
+        <div className={'description'}>
+            <div className={'description-title'}>5 шагов к заявке</div>
+            <div className={'description-info'}>
                 {arr.map((e) => (
                     <Card title={e.title} img={e.img} description={e.desc} />
                 ))}

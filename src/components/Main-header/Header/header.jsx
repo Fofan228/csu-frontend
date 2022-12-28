@@ -11,28 +11,30 @@ const Header = () => {
     const [windowOpen, setWindowOpen] = useState(false);
 
     return (
-        <header className="header">
-            <div className="header-container">
-                <nav className="menu">
-                    <div className="sub-menu left-menu">
-                        <img src={logo} className="logo" />
-                        <div className="separator" />
-                        <span className="info-link">
+        <header className={'header'}>
+            <div className={'header-container'}>
+                <nav className={'menu'}>
+                    <div className={'sub-menu left-menu'}>
+                        <img src={logo} className={'logo'} />
+                        <div className={'separator'} />
+                        <span className={'info-link'}>
                             Курьерская служба доставки
                         </span>
                     </div>
-                    <div className="sub-menu wrapper">
-                        <div className="adaptive">
-                            <img className="phone-img" src={phone} />
-                            <a href="#" className="phone-link">
-                                <span className="phone">8 (909) 023-12-51</span>
+                    <div className={'sub-menu wrapper'}>
+                        <div className={'adaptive'}>
+                            <img className={'phone-img'} src={phone} />
+                            <a href="#" className={'phone-link'}>
+                                <span className={'phone'}>
+                                    8 (909) 023-12-51
+                                </span>
                             </a>
                         </div>
                         <button
                             onClick={() => {
                                 setWindowOpen(true);
                             }}
-                            className="login-btn"
+                            className={'login-btn'}
                         >
                             Вход
                         </button>

@@ -65,7 +65,7 @@ const Slider = function ({ width, height, autoPlay, autoPlayTime, items }) {
     return (
         <div
             style={{ width, height }}
-            className="slider"
+            className={'slider'}
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
         >

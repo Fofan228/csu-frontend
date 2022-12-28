@@ -4,11 +4,9 @@ import Footer from '@Components/Footer/footer';
 import Description from '@Components/Description/description';
 import MainHeader from '@Components/Main-header/main-header';
 
-//import './main1.less';
-
 const Main = () => (
-    <div className="main-page">
-        <div className="main-page__title">
+    <div className={'main-page'}>
+        <div className={'main-page__title'}>
             <MainHeader />
             <Description />
             <Footer />

@@ -5,26 +5,26 @@ import './footer.less';
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="footer-container">
-                <div className="footer-logo">
-                    <img src={logo} className="logo" />
+        <footer className={'footer'}>
+            <div className={'footer-container'}>
+                <div className={'footer-logo'}>
+                    <img src={logo} className={'logo'} />
                 </div>
-                <div className="footer-info-begin">
-                    <dl className="footer-info-list-begin">
+                <div className={'footer-info-begin'}>
+                    <dl className={'footer-info-list-begin'}>
                         <dt>О компании</dt>
                         <dt>Вакансии</dt>
                         <dt>Клиенту</dt>
                         <dt>Франчайзинг</dt>
                     </dl>
-                    <dl className="footer-info-list-middle">
+                    <dl className={'footer-info-list-middle'}>
                         <dt>Доставка из китая</dt>
                         <dt>Все услуги</dt>
                         <dt>Акции</dt>
                     </dl>
                 </div>
-                <div className="footer-info-end">
-                    <dl className="footer-info-list-end">
+                <div className={'footer-info-end'}>
+                    <dl className={'footer-info-list-end'}>
                         <dt>manager@uexpress.ru</dt>
                         <dt>
                             115221, г. Челябинск, ул.

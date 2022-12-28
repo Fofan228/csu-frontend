@@ -9,11 +9,11 @@ import './main-header.less';
 
 const MainHeader = () => {
     return (
-        <div className="main-header-info">
-            <div className="main-header-info__header">
+        <div className={'main-header-info'}>
+            <div className={'main-header-info__header'}>
                 <Header />
             </div>
-            <div className="main-header-info__slider">
+            <div className={'main-header-info__slider'}>
                 <Slider
                     width={'100%'}
                     height={'500px'}
