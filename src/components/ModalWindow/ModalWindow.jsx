@@ -1,24 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import closeBtn from '@Assets/images/Shape.png';
 
 import './ModalWindow.less';
 
 const ModalWindow = ({ isVisible = false, onClose }) => {
-    const keydownHandler = ({ key }) => {
-        switch (key) {
-            case 'Escape':
-                onClose();
-                break;
-            default:
-        }
-    };
-
-    useEffect(() => {
-        document.addEventListener('keydown', keydownHandler);
-        return () => document.removeEventListener('keydown', keydownHandler);
-    });
-
     return !isVisible ? null : (
         <div className={'modal'} onClick={onClose}>
             <div
