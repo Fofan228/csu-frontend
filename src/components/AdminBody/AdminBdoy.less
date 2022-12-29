@@ -1,0 +1,151 @@
+.news-container {
+  padding: 150px 135px;
+}
+
+.textarea {
+  margin-top: 60px;
+  width: calc(100% - 22px);
+  padding: 10px 10px;
+  border: solid 1px #23415E;
+  border-radius: 6px;
+  resize: none;
+}
+
+.textarea::placeholder {
+  color: #D0C9D6;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 1px 6px;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+textarea::-webkit-scrollbar {
+  width: 6px;
+  bottom: -30px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: rgba(208, 201, 214, 0.3);;
+  border-radius: 6px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #D0C9D6;
+  border-radius: 6px;
+
+}
+
+.textarea-label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #CCC;
+  display: flex;
+  justify-content: right;
+}
+
+.text-area-error {
+  color: #d52937;
+}
+
+.title-description {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.area-container {
+  width: 770px;
+}
+
+.image-uploading-container {
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+}
+
+.custom-file-upload {
+  white-space: nowrap;
+  color: #23415E;
+  padding: 6px 12px 6px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.file-input {
+  display: none;
+}
+
+.label-photo {
+  width: 20px;
+  margin: 2px 0;
+}
+
+.output-image {
+  width: 30px;
+  height: 30px;
+}
+
+.output-label{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.output-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+  flex: 100%;
+}
+
+.btn-on-admin {
+  width: 240px;
+  height: 52px;
+  margin-top: 100px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 10px;
+  border: 0;
+  background: #E5E31F;
+  color: #2A4F71;
+}
+
+@media (max-width: 950px) {
+  .area-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .news-container {
+    padding: 150px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .textarea {
+    margin-top: 40px;
+  }
+  .image-uploading-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .news-container {
+    padding: 100px 15px;
+  }
+
+  .output-container {
+    padding-top: 10px;
+  }
+
+}
